@@ -164,6 +164,143 @@ h2{
     height: 80vh;
 }
 @media only screen and (max-width: 600px) {
-  width:400px;
+    #showcase-top img {
+        width: 55px;
+        position: absolute;
+        top: 27%;
+        left: 12%;
+        transform: translate(-50%, -50%);
+        /* margin-top: 10px; */
+    }
+
+    .btn {
+        display: inline-block;
+        background-color: var(--primary-color);
+        padding: 4px 7px;
+        border-radius: 3px;
+        border: none;
+        box-shadow: 0 1px 0 rgba(0, 0, 0, 0.45);
+
+    }
+
+    body {
+        font-size: 12px;
+    }
+
+    #showcase-top a {
+        position: absolute;
+        top: 29%;
+        right: 0;
+        transform: translate(-50%, -50%);
+    }
+
+    #showcase-content {
+        position: relative;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-top: 125px;
+        width: 400px;
+
+
+    }
+
+    .btn-lg {
+        padding: 0.8rem 0.8rem;
+        font-size: 0.5rem;
+        color: white;
+        text-align: center;
+        text-transform: uppercase;
+        display: inline-block;
+        width: 100px;
+        margin: auto;
+
+    }
+
+    input[type="email"] {
+        padding: 0.5rem 5rem;
+        color: white;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        width: 350px;
+
+    }
+
+    .email {
+        width: 210px;
+        font-size: 0.8rem;
+        margin: auto;
+    }
+
+    h2 {
+        font-size: 0.8rem;
+        font-weight: normal;
+        margin: 20px auto;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4 {
+        color: #fff;
+
+    }
+
+    #showcase-content h1 {
+        width: 200px;
+        font-size: 1.2rem;
+    }
+
+    #showcase-content h2 {
+        font-size: 0.8rem;
+    }
+
+
+
+
+    h1 {
+        font-size: 0.9rem;
+    }
+
+    .card {
+        width: 483.1px;
+        display: grid;
+        grid-template-columns: auto;
+    }
+
+    .card-text {
+        width: 100px;
+    }
+
+    .image img {
+        width: 100px;
+        margin: auto;
+    }
+
+    .image video {
+        width: 100px;
+        position: relative;
+        transform: translateY(-400px);
+        transform: translateX(-105px);
+        padding-left: 10px;
+        z-index: 1;
+    }
+
+    h1 {
+        font-size: 1rem;
+        width: 150px;
+        margin: auto;
+    }
+
+    .card p {
+        font-size: 0.7rem;
+        width: 200px;
+        margin: auto;
+    }
+
+
 }
 
