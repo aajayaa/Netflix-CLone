@@ -163,3 +163,7 @@ h2{
 .card-1{
     height: 80vh;
 }
+@media only screen and (max-width: 600px) {
+  width:400px;
+}
+
